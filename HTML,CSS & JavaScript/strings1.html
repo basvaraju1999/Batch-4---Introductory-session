@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="demo"></p>
+        <p id="d1"></p>
+        <p id="d2"></p>
+        <script>
+          const name=["basava","Raju","harish","Surya"];
+          const lname=["gopi","gopal","naresh","venkat"];
+          name.push("lambu");
+          name[0]="ismart"
+          const fulln = name.concat(lname);
+
+          const www=[2,1,6,3,5,4];
+          www.sort();
+          www.reverse();
+
+    document.getElementById("demo").innerHTML = fulln.toString();
+    name.pop();
+    document.getElementById("d1").innerHTML = name.join();
+    document.getElementById("d2").innerHTML = name.join("---");
+    document.getElementById("d1").innerHTML = www;
+        </script>
+
+
+    </body>
+</html>
