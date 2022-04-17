@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Calculatorr</title>
+    </head>
+    <body align = "left">
+	 First No : <input id = "n1"> <br><br>
+	Second No : <input id = "n2"> <br><br>
+		<button onclick = "add()">Add</button> <br><br>
+        <button onclick = "sub()">Subtract </button> <br><br>
+        <button onclick = "mult()">Multiply</button> <br><br>
+		<script language = "Javascript">
+			function add()
+            {
+			    var n1 = Number(document.getElementById("n1").value);
+				var n2 = Number(document.getElementById("n2").value);
+				alert((n1+n2));
+			}
+            function sub()
+            {
+			    var n1 = Number(document.getElementById("n1").value);
+				var n2 = Number(document.getElementById("n2").value);
+				alert((n1-n2));
+			}
+            function mult()
+            {
+			    var n1 = Number(document.getElementById("n1").value);
+				var n2 = Number(document.getElementById("n2").value);
+				alert((n1*n2));
+			}
+		</script>
+    </body>
+</html>
